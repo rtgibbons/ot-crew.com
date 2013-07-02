@@ -1,7 +1,4 @@
-!!! 5
-//
-  :cdata
-    Like wolves in the night...
+    <like>wolves in the night...</like>
     ############################################################# 
     ###################################################   ####### 
     ###############################################   /~\   #####
@@ -22,27 +19,9 @@
     #######  /             ;                      ; #############
     #####  /                `                    ; ##############
     ###  /                                      ; ###############
-    #                                            ################
+    #                                            ################    
 
-html
-  head
-    meta( charset='utf-8' )
-    meta( content='width=device-width,initial-scale=1', name='viewport' )
-      
-    title= title
 
-    // Web Fontz
-    link( href='http://fonts.googleapis.com/css?family=Cabin+Sketch:bold|Ubuntu|Cabin', rel='stylesheet' )
-    
-    // Stylez
-    link( rel='stylesheet', href='/stylesheets/normalize.css' )
-    link( rel='stylesheet', href='/stylesheets/style.css' )
+Seriously though
 
-  body
-
-    != body
-
-    script( src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js' )
-    script( src='http://platform.twitter.com/anywhere.js?id=K1MCmMxkZWuWRKAxnggccA&amp;v=1' )    
-    script( src='/javascripts/sex.js' )
-
+`stylus style.styl -u nib`
